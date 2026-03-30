@@ -11,7 +11,7 @@ I am interested in using machine learning for music source separation: taking 1-
 
 ## Why this project is interesting
 
-My thesis project for MAjor Studio 2 focuses on Louis Armstrong, his history, ambassadorial work and legacy. Music is naturally a big part of my discussion. Music in this project I describe as layered: when we listen to a song, we hear many sound sources blended together. Humans can often focus attention on one part — for example, the singer or the drum pattern but a computer has to learn how to separate those signals mathematically. 
+My thesis project for MAjor Studio 2 focuses on Louis Armstrong, his history, ambassadorial work and legacy. Music is naturally a big part of my discussion. Music in this project I describe as layered: when we listen to a song, we hear many sound sources blended together. Humans can often focus attention on one part for example, the singer or the drum pattern but a computer has to learn how to separate those mathematically. 
 
 Possible applications include:
 
@@ -19,10 +19,8 @@ Possible applications include:
 - accessibility and listening analysis
 - preprocessing for other ML tasks like genre recognition or lyric analysis
 
-## Option 1 (Primary): Separate songs into stems
-
-### Goal
-Build a workflow that takes a 1-minute song clip and outputs separate audio tracks, ideally:
+## Goal
+Build a workflow that takes a 1-minute song clip and outputs separate audio tracks:
 
 - **vocals**
 - **drums**
@@ -48,32 +46,19 @@ This project gives me many opportunities for visual output:
 
 ## Option 2 : Instrument recognition
 
-A backup idea would be to predict which instruments are present in a song or clip.
+A backup idea would be to predict which instruments are present in a song.
 
 ### Question
-Can I classify the presence of instruments such as:
+Can I identify instruments such as:
 - vocals
 - piano
 - drums
 - bass
 
-### Why it works
-This is simpler than full separation because the model only predicts labels rather than reconstructing separate audio waveforms.
 
 ## Option 3: Genre analysis, clustering, or classification
 
 Another possible direction is a larger dataset. Can I take one iconic song my Louis Armstrong, "What a Wonderful World" and cluster by genre or style, vocals or just instrumentation?
-
-## Evaluation ideas
-
-If I pursue source separation, I could evaluate the project in more than one way:
-
-### Quantitative
-- 
-
-### Qualitative
-- listening tests
-- short written observations per song
 
 ## Conclusion
 
