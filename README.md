@@ -13,20 +13,6 @@ I am interested in using machine learning for music source separation: taking 1-
 
 My thesis project for MAjor Studio 2 focuses on Louis Armstrong, his history, ambassadorial work and legacy. Music is naturally a big part of my discussion. Music in this project I describe as layered: when we listen to a song, we hear many sound sources blended together. Humans can often focus attention on one part for example, the singer or the drum pattern but a computer has to learn how to separate those mathematically. 
 
-Possible applications include:
-
-- music education and practice
-- accessibility and listening analysis
-- preprocessing for other ML tasks like genre recognition or lyric analysis
-
-## Goal
-Build a workflow that takes a 1-minute song clip and outputs separate audio tracks:
-
-- **vocals**
-- **drums**
-- **bass**
-- **other**
-
 ### Research question
 - How accurately can an ML model separate music into stems?
 - Does separation quality change depending on genre or instrumentation?
@@ -48,20 +34,10 @@ This project gives me many opportunities for visual output:
 
 A backup idea would be to predict which instruments are present in a song.
 
-### Question
-Can I identify instruments such as:
-- vocals
-- piano
-- drums
-- bass
-
-
 ## Option 3: Genre analysis, clustering, or classification
 
-Another possible direction is a larger dataset. Can I take one iconic song my Louis Armstrong, "What a Wonderful World" and cluster by genre or style, vocals or just instrumentation?
+Another possible direction is a larger dataset. Can I take one iconic song by Louis Armstrong, "What a Wonderful World" and cluster by genre or style, vocals or just instrumentation?
 
-## Conclusion
 
-For this milestone, I want to focus on data rather than committing early to a single final model.
 
 
