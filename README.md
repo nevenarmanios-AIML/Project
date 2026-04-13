@@ -1,5 +1,7 @@
 # Project: Visualize how presidential speeches change over time
 
+## Data
+[sotu.zip](https://github.com/user-attachments/files/26684891/sotu.zip)
 
 ## Idea Overview
 This project uses machine learning and text analysis to explore how presidential language changes over time. First, each speech is converted into a vector, which turns the text into numerical features based on how important certain words are in each document. Principal Component Analysis (PCA) is then used to reduce them to just two dimensions so the speeches can be plotted and visually compared.
@@ -19,5 +21,6 @@ This project gives me many opportunities for visual output:
 
 - side-by-side comparisons
 - a simple quality score table
+
 
 
