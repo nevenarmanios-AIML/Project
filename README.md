@@ -1,43 +1,23 @@
-# Project: Machine Learning for Music Separation
+# Project: Visualize how presidential speeches change over time
+
 
 ## Idea Overview
+This project uses machine learning and text analysis to explore how presidential language changes over time. First, each speech is converted into a vector, which turns the text into numerical features based on how important certain words are in each document. Principal Component Analysis (PCA) is then used to reduce them to just two dimensions so the speeches can be plotted and visually compared.
 
-I am interested in using machine learning for music source separation: taking 1-minute excerpts of around 100 songs, or 30 full length songs, and separating each song into individual tracks or stems so that a listener can hear parts like:
-
-- vocals
-- drums
-- bass
-- other instruments / accompaniment
-
-## Why this project is interesting
-
-My thesis project for MAjor Studio 2 focuses on Louis Armstrong, his history, ambassadorial work and legacy. Music is naturally a big part of my discussion. Music in this project I describe as layered: when we listen to a song, we hear many sound sources blended together. Humans can often focus attention on one part for example, the singer or the drum pattern but a computer has to learn how to separate those mathematically. 
+## Goal
+The goal is to see whether speeches naturally separate by time period, president, or historical context. For example, older speeches may appear far from modern ones because the vocabulary and style are different. Speeches delivered during wars or national crises may cluster together because they use similar themes and language. Addresses from the same president may also group together, showing a consistent style. This project works especially well when combined with clustering, which can help identify hidden groupings in the speeches beyond what is obvious from the dates alone.
 
 ### Research question
-- How accurately can an ML model separate music into stems?
-- Does separation quality change depending on genre or instrumentation?
-- Are 1-minute clips enough to produce useful results?
-
-Potential limitation:
-- 100 songs is not very large by ML standards, so training from scratch may be difficult.
+Can the model do the following:
+ - detect older speeches from modern speeches
+ - cluster war era speeches together
+ - group speeches from the same president
 
 ## What I could visualize
 
 This project gives me many opportunities for visual output:
 
-- side-by-side comparisons for songs with different genres
+- side-by-side comparisons
 - a simple quality score table
-- screenshots or sketches showing the separation pipeline
-
-
-## Option 2 : Instrument recognition
-
-A backup idea would be to predict which instruments are present in a song.
-
-## Option 3: Genre analysis, clustering, or classification
-
-Another possible direction is a larger dataset. Can I take one iconic song by Louis Armstrong, "What a Wonderful World" and cluster by genre or style, vocals or just instrumentation?
-
-
 
 
