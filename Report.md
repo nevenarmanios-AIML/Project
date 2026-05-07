@@ -9,12 +9,12 @@
 For this project, I wanted to see whether machine learning could identify the historical era of a State of the Union speech using only short pieces of text. I was interested in this because presidential speeches reflect the issues, concerns, and language of their time. Since the dataset covers more than two centuries, it seemed like a good way to test whether changes in language could be detected computationally.
 
 ## Data and methods
-The dataset contained State of the Union speeches with information such as president, year, and full text. I split each speech into **100-word chunks** so the model could classify smaller passages instead of entire speeches. Each chunk was then labeled with a historical era based on its year.
+The dataset contained State of the Union speeches with information such as president, year, and full text. I split each speech into 100-word chunks so the model could classify smaller passages instead of entire speeches. Each chunk was then labeled with a historical era based on its year.
 
 To model the text, I used **TF-IDF vectorization** with unigrams and bigrams. For classification, I used **Logistic Regression**. The dataset was split into training and test sets, with 80% used for training and 20% used for testing.
 
 ## Results
-The model reached an accuracy of about **78%** on the test set. Some eras were easier to classify than others. **Cold War**, **Industrialization/Progressive Era**, and **Modern** performed well, while **Civil War/Reconstruction** was much harder to predict. The confusion matrix showed that neighboring eras were sometimes mixed up, which makes sense because they often share similar topics and language.
+The model reached an accuracy of about 78% on the test set. Some eras were easier to classify than others. **Cold War**, **Industrialization/Progressive Era**, and **Modern** performed well, while **Civil War/Reconstruction** was much harder to predict. The confusion matrix showed that neighboring eras were sometimes mixed up, which makes sense because they often share similar topics and language.
 
 I also looked at the top words associated with each era. These helped explain the model’s predictions. For example, Cold War chunks were associated with words like *soviet*, *communist*, and *vietnam*, while Modern chunks included words like *america*, *jobs*, and *terrorists*.
 
